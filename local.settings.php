@@ -11,6 +11,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
+ini_set('xdebug.max_nesting_level', 200);
 
 /**
  * Local other settings.
