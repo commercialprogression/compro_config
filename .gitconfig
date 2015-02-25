@@ -1,0 +1,13 @@
+[user]
+  name = John Doe
+  email = john@example.com
+[color]
+  ui = true
+[core]
+  editor = vi
+  excludesfile = ~/repos/compro_config/.gitignore_global
+  fileMode = false
+[alias]
+  lg = log --color --graph --pretty=format:'%cd - %s' --abbrev-commit --date=short
+  up = "!git remote update -p; git merge --ff-only @{u}"
+  roll = "!CURRENT=$(git rev-parse --abbrev-ref HEAD) && git checkout ${1} && git merge ${CURRENT} && git push origin ${1} && git checkout ${CURRENT} && git status"
