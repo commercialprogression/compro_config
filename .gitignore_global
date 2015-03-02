@@ -5,7 +5,7 @@
 # GIT IGNORE GLOBALS
 # UPDATED 2013JAN22
 #
-# For this file to have effect you must run: 
+# For this file to have effect you must run:
 #   git config --global core.excludesfile ~/.gitignore_global
 
 # Compiled source #
@@ -59,3 +59,4 @@ nbproject
 *.sass-cache
 .vagrant
 .idea
+node_modules
