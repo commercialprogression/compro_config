@@ -10,4 +10,4 @@
 [alias]
   lg = log --color --graph --pretty=format:'%cd - %s' --abbrev-commit --date=short
   up = "!git remote update -p; git merge --ff-only @{u}"
-  roll = "!CURRENT=$(git rev-parse --abbrev-ref HEAD) && git checkout ${1} && git merge ${CURRENT} && git push origin ${1} && git checkout ${CURRENT} && git status && bash -c 'wget -O- -q https://bitbucket.org/alexfisher/compro_config/src/master/media/rollin.wav | aplay'"
+  roll = "!CURRENT=$(git rev-parse --abbrev-ref HEAD) && git checkout ${1} && git merge ${CURRENT} && git push origin ${1} && git checkout ${CURRENT} && git status && bash -c 'wget -O- -q https://bitbucket.org/alexfisher/compro_config/src/master/media/rollin.au | aplay'"

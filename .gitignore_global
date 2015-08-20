@@ -56,7 +56,7 @@ sites/*/private
 nbproject
 .svn
 *.komodoproject
-*.sass-cache
+.sass-cache
 .vagrant
 .idea
 node_modules
