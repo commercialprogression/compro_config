@@ -22,6 +22,7 @@ $conf['block_cache'] = 0;
 $conf['cache'] = 0;
 $conf['preprocess_css'] = 0;
 $conf['preprocess_js'] = 0;
+$conf['securepages_enable'] = FALSE;
 
 /**
  * Databases.
