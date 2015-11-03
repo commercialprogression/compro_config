@@ -49,7 +49,7 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 /.htaccess
-/robots.txt
+/*.txt
 
 # Development related files #
 #################################
