@@ -23,6 +23,7 @@ $conf['cache'] = 0;
 $conf['preprocess_css'] = 0;
 $conf['preprocess_js'] = 0;
 $conf['securepages_enable'] = FALSE;
+$conf['mandrill_api_key'] = FALSE;
 
 /**
  * Databases.
