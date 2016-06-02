@@ -35,6 +35,7 @@
 *.log
 *.sql
 *.sqlite
+error_log
 
 # OS generated files #
 ######################
@@ -61,4 +62,3 @@ nbproject
 .idea
 node_modules
 bower_components
-php_server.router.inc
