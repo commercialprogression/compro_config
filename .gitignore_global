@@ -62,3 +62,7 @@ nbproject
 .idea
 node_modules
 bower_components
+
+# Development modules *
+##########################
+dummyimage
