@@ -62,6 +62,8 @@ nbproject
 .idea
 node_modules
 bower_components
+php.ini
+*.css.map
 
 # Development modules *
 ##########################
