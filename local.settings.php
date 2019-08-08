@@ -11,7 +11,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
-ini_set('xdebug.max_nesting_level', 200);
+ini_set('xdebug.max_nesting_level', 256);
 
 /**
  * Local other settings.
@@ -52,6 +52,7 @@ $conf['404_fast_paths'] = '/\.(?:txt|png|gif|jpe?g|css|js|ico|swf|flv|cgi|bat|pl
 $conf['404_fast_paths_exclude'] = '/\/(?:styles)\//';
 $conf['theme_debug'] = '1';
 $drupal_hash_salt = 'kczJRAl6ByVYlbSVuiOTvt3zef3q6llP0nXiXQnGJCg';
+$settings['hash_salt'] = 'aTHU4yuluFSJD6XPdsyLCBMeQHMpz2R7JG6n9TH0hQQpdlbDRRmuOxAFRaZc7MVT7CFc5MF_2A';
 $update_free_access = FALSE;
 ini_set('session.cookie_lifetime', 2000000);
 ini_set('session.gc_divisor', 100);
